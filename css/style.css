@@ -640,9 +640,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p, .p {
 }
 
 p, .p {
-  font-size: 17px;
-  line-height: 25.5px;
-  letter-spacing: 0.026px;
+  font-size: 17pt;
+  line-height: 150%;
+  letter-spacing: 0.15pt;
 }
 
 h1, .h1 {
@@ -703,7 +703,7 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: 200% !important;
-  letter-spacing: 0.026px;
+  letter-spacing: 0;
 }
 li img {
   vertical-align: sub;
