@@ -1,0 +1,51 @@
+/* -------------------------------------------------------------------------- */
+/*                                    Mixin                                   */
+/* -------------------------------------------------------------------------- */
+
+/* --------------------------------- Padding -------------------------------- */
+@mixin generate-padding-classes()
+@each $key, $value in $size-map
+    @each $side-key, $side in $sides-map
+        .p-#{$side-key}-#{$key}
+            @if ($side == '')
+                padding: $value
+            @else if ($side == 'horizontal')
+                padding-left: $value
+                padding-right: $value
+            @else if ($side == 'vertical')
+                padding-top: $value
+                padding-bottom: $value
+            @else
+                padding-#{$side}: $value
+@include generate-padding-classes()
+
+/* --------------------------------- Margin --------------------------------- */
+@mixin generate-margin-classes()
+@each $key, $value in $size-map
+    @each $side-key, $side in $sides-map
+        .m-#{$side-key}-#{$key}
+            @if ($side == '')
+                margin: $value
+            @else if ($side == 'horizontal')
+                margin-left: $value
+                margin-right: $value
+            @else if ($side == 'vertical')
+                margin-top: $value
+                margin-bottom: $value
+            @else
+                margin-#{$side}: $value
+@include generate-margin-classes()
+
+/* -------------------------------- Font Size ------------------------------- */
+@mixin generate-font-size-classes()
+    @each $size in $font-size-list
+        .fs-#{$size}
+            font-size: $size
+@include generate-font-size-classes()
+
+/* ------------------------------- Font Weight ------------------------------ */
+@mixin generate-font-weight-classes()
+    @each $weight in $font-weight-list
+        .fw-#{$weight}
+            font-weight: $weight
+@include generate-font-weight-classes()
