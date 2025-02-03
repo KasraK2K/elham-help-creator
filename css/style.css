@@ -627,9 +627,9 @@ xmp {
 /*                                   Classes                                  */
 /* -------------------------------------------------------------------------- */
 body {
-  font-size: 17pt;
+  font-size: 17px;
   line-height: 150%;
-  letter-spacing: 0.15pt;
+  letter-spacing: 0.15px;
   font-family: "Poppins", serif;
 }
 
@@ -640,45 +640,46 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p, .p {
 }
 
 p, .p {
-  font-size: 17pt;
+  font-size: 17px;
   line-height: 150%;
-  letter-spacing: 0.15pt;
+  letter-spacing: 0.15px;
+  font-weight: 300;
 }
 
 h1, .h1 {
-  font-size: 40pt;
+  font-size: 40px;
   line-height: 120%;
-  letter-spacing: 0.25pt;
+  letter-spacing: 0.25px;
 }
 
 h2, .h2 {
-  font-size: 33pt;
+  font-size: 33px;
   line-height: 46px;
-  letter-spacing: 0.25pt;
+  letter-spacing: 0.25px;
 }
 
 h3, .h3 {
-  font-size: 28pt;
+  font-size: 28px;
   line-height: 34px;
-  letter-spacing: 0.25pt;
+  letter-spacing: 0.25px;
 }
 
 h4, .h4 {
-  font-size: 23pt;
+  font-size: 23px;
   line-height: 32px;
-  letter-spacing: 0pt;
+  letter-spacing: 0px;
 }
 
 h5, .h5 {
-  font-size: 19pt;
+  font-size: 19px;
   line-height: 30px;
-  letter-spacing: 0.15pt;
+  letter-spacing: 0.15px;
 }
 
 h6, .h6 {
-  font-size: 17pt;
+  font-size: 17px;
   line-height: 28px;
-  letter-spacing: 0.1pt;
+  letter-spacing: 0.1px;
 }
 
 a, .a {
@@ -688,7 +689,7 @@ a, .a {
   line-height: 150%;
   letter-spacing: 0.026px;
   text-decoration: none;
-  color: var(--info-100);
+  color: #00A0EA;
   cursor: pointer;
 }
 
@@ -716,8 +717,8 @@ section.important, .important-section {
   padding: 16px;
   gap: 12px;
   border-radius: 16px;
-  border: 1px solid var(--canary-50);
-  background-color: var(--canary-20);
+  border: 1px solid #FFE4A8;
+  background-color: #FFF3D7;
 }
 section.important p, .important-section p {
   margin-bottom: 0;
@@ -732,7 +733,7 @@ section.important p:first-child::before, .important-section p:first-child::befor
   top: 4px;
   left: -8px;
   border-radius: 20px;
-  background-color: var(--canary-100);
+  background-color: #FCC500;
   width: 4px;
   height: 16px;
 }
