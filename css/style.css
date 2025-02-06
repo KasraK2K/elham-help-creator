@@ -350,6 +350,36 @@ xmp {
   padding-bottom: 16px;
 }
 
+.p-a-s {
+  padding: 8px;
+}
+
+.p-t-s {
+  padding-top: 8px;
+}
+
+.p-r-s {
+  padding-right: 8px;
+}
+
+.p-b-s {
+  padding-bottom: 8px;
+}
+
+.p-l-s {
+  padding-left: 8px;
+}
+
+.p-x-s {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.p-y-s {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 /* --------------------------------- Margin --------------------------------- */
 .m-a-auto {
   margin: auto;
@@ -561,6 +591,36 @@ xmp {
   margin-bottom: 16px;
 }
 
+.m-a-s {
+  margin: 8px;
+}
+
+.m-t-s {
+  margin-top: 8px;
+}
+
+.m-r-s {
+  margin-right: 8px;
+}
+
+.m-b-s {
+  margin-bottom: 8px;
+}
+
+.m-l-s {
+  margin-left: 8px;
+}
+
+.m-x-s {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.m-y-s {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 /* -------------------------------- Font Size ------------------------------- */
 .fs-17px {
   font-size: 17px;
@@ -738,11 +798,11 @@ section.important p:first-child::before, .important-section p:first-child::befor
   height: 16px;
 }
 
-.round, .hero img {
-  border-radius: 30px;
+.round {
+  border-radius: 20px;
 }
 
-.shadow, .hero img {
+.shadow {
   box-shadow: 0px 2px 15px 0px rgba(95, 101, 155, 0.15);
 }
 
@@ -750,6 +810,7 @@ section.important p:first-child::before, .important-section p:first-child::befor
   text-align: center;
   margin-top: 64px;
 }
+
 .align-left {
   text-align: left;
 }
