@@ -745,7 +745,7 @@ h6, .h6 {
 a, .a {
   all: unset;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 150%;
   letter-spacing: 0.026px;
   text-decoration: none;
