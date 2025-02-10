@@ -8,15 +8,15 @@
     @each $side-key, $side in $sides-map
         .p-#{$side-key}-#{$key}
             @if ($side == '')
-                padding: $value
+                padding: $value !important
             @else if ($side == 'horizontal')
-                padding-left: $value
-                padding-right: $value
+                padding-left: $value !important
+                padding-right: $value !important
             @else if ($side == 'vertical')
-                padding-top: $value
-                padding-bottom: $value
+                padding-top: $value !important
+                padding-bottom: $value !important
             @else
-                padding-#{$side}: $value
+                padding-#{$side}: $value !important
 @include generate-padding-classes()
 
 /* --------------------------------- Margin --------------------------------- */
@@ -25,27 +25,27 @@
     @each $side-key, $side in $sides-map
         .m-#{$side-key}-#{$key}
             @if ($side == '')
-                margin: $value
+                margin: $value !important
             @else if ($side == 'horizontal')
-                margin-left: $value
-                margin-right: $value
+                margin-left: $value !important
+                margin-right: $value !important
             @else if ($side == 'vertical')
-                margin-top: $value
-                margin-bottom: $value
+                margin-top: $value !important
+                margin-bottom: $value !important
             @else
-                margin-#{$side}: $value
+                margin-#{$side}: $value !important
 @include generate-margin-classes()
 
 /* -------------------------------- Font Size ------------------------------- */
 @mixin generate-font-size-classes()
     @each $size in $font-size-list
         .fs-#{$size}
-            font-size: $size
+            font-size: $size !important
 @include generate-font-size-classes()
 
 /* ------------------------------- Font Weight ------------------------------ */
 @mixin generate-font-weight-classes()
     @each $weight in $font-weight-list
         .fw-#{$weight}
-            font-weight: $weight
+            font-weight: $weight !important
 @include generate-font-weight-classes()
