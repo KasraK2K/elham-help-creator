@@ -622,6 +622,14 @@ xmp {
 }
 
 /* -------------------------------- Font Size ------------------------------- */
+.fs-13px {
+  font-size: 13px !important;
+}
+
+.fs-15px {
+  font-size: 15px !important;
+}
+
 .fs-17px {
   font-size: 17px !important;
 }
@@ -681,6 +689,51 @@ xmp {
 
 .fw-900 {
   font-weight: 900 !important;
+}
+
+/* --------------------------------- Opacity -------------------------------- */
+.opacity-0 {
+  opacity: 0 !important;
+}
+
+.opacity-10 {
+  opacity: 0.1 !important;
+}
+
+.opacity-20 {
+  opacity: 0.2 !important;
+}
+
+.opacity-30 {
+  opacity: 0.3 !important;
+}
+
+.opacity-40 {
+  opacity: 0.4 !important;
+}
+
+.opacity-50 {
+  opacity: 0.5 !important;
+}
+
+.opacity-60 {
+  opacity: 0.6 !important;
+}
+
+.opacity-70 {
+  opacity: 0.7 !important;
+}
+
+.opacity-80 {
+  opacity: 0.8 !important;
+}
+
+.opacity-90 {
+  opacity: 0.9 !important;
+}
+
+.opacity-100 {
+  opacity: 1 !important;
 }
 
 /* -------------------------------------------------------------------------- */

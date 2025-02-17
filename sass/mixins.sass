@@ -49,3 +49,10 @@
         .fw-#{$weight}
             font-weight: $weight !important
 @include generate-font-weight-classes()
+
+/* --------------------------------- Opacity -------------------------------- */
+@mixin generate-opacity-classes()
+    @each $key, $value in $opacity-map
+        .opacity-#{$key}
+            opacity: $value !important
+@include generate-opacity-classes()
