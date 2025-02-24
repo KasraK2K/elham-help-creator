@@ -861,7 +861,6 @@ section.important p:first-child::before, .important-section p:first-child::befor
 
 .hero {
   text-align: center;
-  margin-top: 64px;
 }
 
 .align-left {
