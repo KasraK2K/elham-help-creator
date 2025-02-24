@@ -902,3 +902,7 @@ section.important p:first-child::before, .important-section p:first-child::befor
   border-style: solid none none;
   border-color: #E8ECF2;
 }
+
+.bold {
+  font-weight: 500;
+}
