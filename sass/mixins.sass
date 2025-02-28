@@ -36,6 +36,23 @@
                 margin-#{$side}: $value !important
 @include generate-margin-classes()
 
+/* ---------------------------------- Hero ---------------------------------- */
+@mixin generate-hero-classes()
+@each $key, $value in $size-map
+    @each $side-key, $side in $sides-map
+        .hero-#{$side-key}-#{$key}
+            @if ($side == '')
+                margin: $value !important
+            @else if ($side == 'horizontal')
+                margin-left: $value !important
+                margin-right: $value !important
+            @else if ($side == 'vertical')
+                margin-top: $value !important
+                margin-bottom: $value !important
+            @else
+                margin-#{$side}: $value !important
+@include generate-hero-classes()
+
 /* -------------------------------- Font Size ------------------------------- */
 @mixin generate-font-size-classes()
     @each $size in $font-size-list
